@@ -6,9 +6,9 @@ namespace DIO.Bank
     {
         static void Main(string[] args)
         {
-            //Conta minhaConta = new Conta();
+            Conta minhaConta = new Conta(TipoConta.PessoFisica, 0, 0, "Renato Vieira");
 
-            Console.WriteLine("Hello World!");
+            Console.WriteLine(minhaConta.ToString());
         }
     }
 }
